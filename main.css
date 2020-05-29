@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+table {
+    background-color: purple;
+    color: white;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+td, th {
+    padding: 5px;
+    
+}
+
+td {
+     border-bottom: solid 1px black;
+     border-right: solid 1px black;
+}
+
+th {
+    border-bottom: solid 1px black;
+}
+
+.delete {
+    cursor: pointer;
+}
+

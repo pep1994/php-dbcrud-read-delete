@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP - Read - Delete</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- template -->
+    <script id="template" type="text/x-handlebars-template">
+        <tr class="pagante" data-id='{{id}}'>
+          <td>{{name}}</td>
+          <td>{{lastname}}</td>
+          <td>{{address}}</td>
+          <td><i class="fas fa-trash-alt delete"></i></td>
+        </tr>
+      </script>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Paganti</h1>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Address</th>
+            </thead>
+        </table>
+    </div>
+
+</body>
+</html>
